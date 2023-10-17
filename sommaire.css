@@ -1,0 +1,49 @@
+body{
+ background-image: url(https://media.istockphoto.com/id/1217765834/photo/flag-of-united-kingdom-blowing-in-the-wind.jpg?s=612x612&w=is&k=20&c=N7TgPeF5TjRAm9Ho5_vTlUSiV-i_Qr2RtNWXSCz-TrA=);
+}
+
+.header{
+    background-color: #287265;
+    height: 80px;
+    margin: 10px;
+}
+
+.header nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+.header ul li a{
+    color: #fff;
+    letter-spacing: 0.1rem;
+    font-family:  'Lobster', sans-serif;
+}
+
+.header ul li a:hover{
+    transition: 0.5s;
+    color: #ffd358;
+    text-decoration: underline;
+    
+}
+
+.menu{
+    float: center;
+    padding: 35px;
+}
+
+.menu li a{
+    text-decoration: none;
+}
+
+form{
+    text-align: right;
+}
+
+input{
+    font-size: 35px;
+}
+
+ol a li{
+    text-align: center;
+}
