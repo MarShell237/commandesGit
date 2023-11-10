@@ -77,20 +77,16 @@ code
 
 .sommaire
 {
+    position: relative;
    float:right;
+   left: 55px;
    border-radius: 15px;
    width: 255px;
+   height: 800px;
    background-color: rgba(130, 199, 199, 0.7); 
-   margin: 10px;
-   padding: 30px;
+   margin: 0px;
+   padding: 10px;
    border-spacing: 200px;
-}
-
-.sommaire nav a h3{
-    font-size:x-large;
-    padding: 5px;
-    margin: 5px;
-    height: 70px;
 }
 
 .commentaire
