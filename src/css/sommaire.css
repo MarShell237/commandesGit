@@ -4,6 +4,7 @@ body{
 
 .header{
     background-color: #287265;
+    border-radius: 10px;
     height: 80px;
     margin: 10px;
 }

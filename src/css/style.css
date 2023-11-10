@@ -30,6 +30,8 @@ h1,h2,h3{
     margin-bottom: 40px;
 }
 
+
+
 h1
 {
     color:rgba(0, 0, 0,0.8);
@@ -75,10 +77,20 @@ code
 
 .sommaire
 {
-   background-color: rgb(54, 234, 234,0.7); 
+   float:right;
+   border-radius: 15px;
+   width: 255px;
+   background-color: rgba(130, 199, 199, 0.7); 
    margin: 10px;
    padding: 30px;
    border-spacing: 200px;
+}
+
+.sommaire nav a h3{
+    font-size:x-large;
+    padding: 5px;
+    margin: 5px;
+    height: 70px;
 }
 
 .commentaire
@@ -131,21 +143,21 @@ a.previous,a.next {
 a.previous,a.next:hover {
     background-color: #ddd;
     color: black;
-  }
+}
 
-  a.previous:active,a.next:active{
+a.previous:active,a.next:active{
     border: 3px inset black;
-  }
+}
   
-  .previous {
+.previous {
     background-color: #f1f1f1;
     color: black;
-  }
+}
   
-  .next {
+.next {
     background-color: #e4920f;
     color: white;
-  }
+}
   
 #SUBJECT{
     font-size: 3.5em;
